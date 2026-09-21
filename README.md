@@ -36,8 +36,6 @@ cd tarot-ai-alphazero
 pip install -r requirements.txt
 ```
 
-> **Note on Model Weights:** The pre-trained `.pth` files (TarotFormer and TarotValueMLP) are hosted in the [Releases](../../releases) section due to file size constraints. Download and place them in the root directory before running the engine.
-
 ## Usage
 
 To launch a duplicate tournament or test the engine in a local game:
@@ -54,6 +52,8 @@ python main.py
 * **Deep Learning:** PyTorch (Transformers, MLP, torch.compile, GPU Batching)
 * **Data Processing:** NumPy, Pandas, SQLAlchemy
 * **Algorithms:** MCTS, MinMax with Alpha-Beta Pruning, Softmax Sampling with Temperature, UCB1
+
+## Demo with the website
 
 ## Author
 
