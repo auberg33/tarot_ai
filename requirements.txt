@@ -1,0 +1,10 @@
+# Core Machine Learning
+torch>=2.0.0
+numpy>=1.24.0
+
+# Data manipulation & Parsing
+pandas>=2.0.0
+SQLAlchemy>=2.0.0
+
+# Utilities
+tqdm>=4.65.0
